@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.PetCareApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">49dp</item>
+        <item name="hintEnabled">false</item>
+<!--        <item name="boxCornerRadiusTopStart">14dp</item>-->
+<!--        <item name="boxCornerRadiusTopEnd">14dp</item>-->
+<!--        <item name="boxCornerRadiusBottomStart">14dp</item>-->
+<!--        <item name="boxCornerRadiusBottomEnd">14dp</item>-->
+        <item name="boxStrokeColor">#E9EAE3</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="Widget.PetCareApp.TextInputEditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColorHint">#5C5C5C</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/bg_input</item>
+    </style>
+</resources>
