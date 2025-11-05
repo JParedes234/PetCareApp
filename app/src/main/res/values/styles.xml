@@ -44,7 +44,7 @@
         <item name="android:layout_height">48dp</item>
         <item name="backgroundTint">@android:color/white</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearance.PetCareApp.FullRound</item>
-        <item name="iconTint">?attr/colorPrimary</item>
+        <item name="iconTint">?attr/colorOnSecondary</item>
     </style>
 
     <style name="Widget.PetCareApp.Button.Secondary.AuthSocial" parent="Widget.PetCareApp.Button.Secondary">
