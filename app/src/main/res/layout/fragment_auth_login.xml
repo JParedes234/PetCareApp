@@ -14,13 +14,11 @@
 
         <Button
             style="@style/Widget.PetCareApp.Button.Secondary.OnlyIcon"
-            app:icon="@drawable/ic_lock"
+            app:icon="@drawable/ic_arrow_left"
             android:padding="13dp"
             android:layout_marginTop="7dp"
-
             android:layout_marginStart="19dp" />
     </LinearLayout>
-<!--    android:layout_gravity="center"-->
 
     <LinearLayout
         android:layout_width="match_parent"
