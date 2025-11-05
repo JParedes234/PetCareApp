@@ -31,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         navController.addOnDestinationChangedListener((controller, destination, arguments) -> {
             int id = destination.getId();
             if (
-                    id == R.id.loginFragment
+                    id == R.id.loginFragment ||
+                    id == R.id.registerFragment
             ) {
                 navView.setVisibility(View.GONE);
             } else {
