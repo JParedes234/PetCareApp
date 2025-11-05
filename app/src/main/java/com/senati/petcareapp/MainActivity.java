@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
             if (
                     id == R.id.loginFragment ||
                     id == R.id.registerFragment ||
-                    id == R.id.forgotPasswordFragment
+                    id == R.id.forgotPasswordFragment ||
+                    id == R.id.otpVerificationFragment
             ) {
                 navView.setVisibility(View.GONE);
             } else {
