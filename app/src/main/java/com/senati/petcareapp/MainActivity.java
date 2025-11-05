@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                     id == R.id.loginFragment ||
                     id == R.id.registerFragment ||
                     id == R.id.forgotPasswordFragment ||
-                    id == R.id.otpVerificationFragment
+                    id == R.id.otpVerificationFragment ||
+                    id == R.id.resetPasswordFragment
             ) {
                 navView.setVisibility(View.GONE);
             } else {
