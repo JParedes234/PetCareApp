@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/resetPasswordFragment">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -27,4 +27,24 @@
         android:name="com.senati.petcareapp.presentation.auth.ui.LoginFragment"
         android:label="fragment_auth_login"
         tools:layout="@layout/fragment_auth_login" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.senati.petcareapp.presentation.auth.ui.RegisterFragment"
+        android:label="fragment_auth_register"
+        tools:layout="@layout/fragment_auth_register" />
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.senati.petcareapp.presentation.auth.ui.ForgotPasswordFragment"
+        android:label="fragment_auth_forgot_password"
+        tools:layout="@layout/fragment_auth_forgot_password" />
+    <fragment
+        android:id="@+id/otpVerificationFragment"
+        android:name="com.senati.petcareapp.presentation.auth.ui.OtpVerificationFragment"
+        android:label="fragment_auth_otp_verification"
+        tools:layout="@layout/fragment_auth_otp_verification" />
+    <fragment
+        android:id="@+id/resetPasswordFragment"
+        android:name="com.senati.petcareapp.presentation.auth.ui.ResetPasswordFragment"
+        android:label="fragment_auth_reset_password"
+        tools:layout="@layout/fragment_auth_reset_password" />
 </navigation>
